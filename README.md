@@ -17,11 +17,11 @@ This repository contains the source code for an exciting entertainment website d
 
 ## Contributors
 - [Dewmini Chamindrika]: [Student 1]
-- Presentation Page – “Presentation Page” (presentation.html, presentation.css)
-- Buy Products – “Buy Products” (buypro.html, buypro.css, buypro.js, payment.html, payment.css, final.html, final.css)
-- Extra Content Page – “Korean Drama” (kdrama.html, kdrama.css)
-- Adapt the Navigation Bar from Student 2 – “common” (common.css)
-- Page Editor – “Page Editor” (editor.html, editor.css)
+- **Presentation Page** – “Presentation Page” (presentation.html, presentation.css)
+- **Buy Products** – “Buy Products” (buypro.html, buypro.css, buypro.js, payment.html, payment.css, final.html, final.css)
+- **Extra Content Page** – “Korean Drama” (kdrama.html, kdrama.css)
+- **Adapt the Navigation Bar from Student 2** – “common” (common.css)
+- **Page Editor** – “Page Editor” (editor.html, editor.css)
 - [Name]: [Role]
 - [Name]: [Role]
 - [Name]: [Role]
