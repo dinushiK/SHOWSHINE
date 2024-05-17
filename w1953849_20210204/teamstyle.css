@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+body{
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+
+.team-section{
+    background-color: #816b59;
+    min-height: 100vh;
+    padding: 70px 15px 30px;
+}
+
+.container{
+    max-width: 1170px;
+    margin:auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team-section .section-title{
+    flex-basis: 100%;
+    max-width: 100%;
+    margin-bottom: 70px;
+}
+
+.team-section .section-title h1{
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    color: #ffffff;
+    font-weight: 700; 
+}
+
+.team-section .section-title p{
+    font-size: 16px;
+    text-align: center;
+    margin: 15px 0 0;
+    color:#ffffff
+}
+.team-section .team-items{
+    
+    flex-basis: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.team-section .team-items .item{
+    flex-basis: calc(25% - 30px);
+    max-width: calc(25% - 30px);
+    margin-bottom: 40px;
+}
+.team-section .team-items .item img{
+    display: block;
+    width: 100%;
+}
+
+.team-section .team-items .item .inner{
+    position: relative;
+    z-index: 11;
+    padding: 15px;
+}
+.team-section .team-items .item .inner .info{
+    background-color: #816b59;
+    text-align: center;
+    padding: 20px 15px;
+    border-radius: 8px;
+    visibility: hidden;
+
+}
+.team-section .team-items .item:hover .info{
+    visibility: visible;
+}
+
+.team-section .team-items .item .inner .info h5{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.team-section .team-items .item .inner .info p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #c5c5c5;
+    margin: 10px 0 0;
+}
+
+/*footer*/
+footer{
+    background: #ffffff;
+    font-family: "Open Sans";
+    color: #09332f;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*responsive*/
+@media(max-width: 991px){
+    .team-section .team-items .item{
+        flex-basis: calc(50% - 30px);
+        max-width: calc(50% - 30px);
+        
+    }
+}
+
+@media(max-width: 767px){
+    .team-section .team-items .item{
+        flex-basis: calc(100%);
+        max-width: calc(100%);
+        
+    }
+}
+
+/*Page Editor*/
+.editor-section {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #9c6c6c;
+    font-family: "Courier New";
+    color: #ffffff;
+    /* editor content */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
